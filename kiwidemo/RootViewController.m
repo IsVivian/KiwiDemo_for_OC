@@ -7,10 +7,10 @@
 //
 
 #import "RootViewController.h"
+#import "PopViewController.h"
 
 @interface RootViewController ()
 @property (nonatomic, strong) NSString *testString;
-
 @end
 
 @implementation RootViewController
@@ -19,6 +19,41 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.rowHeight = 50;
+    [self.view addSubview:_tableView];
+ 
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return 10;
+
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    
+    cell.textLabel.text = @"hehehe";
+    cell.backgroundColor = [UIColor yellowColor];
+    
+    return cell;
+    
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    PopViewController *popVC = [[PopViewController alloc]init];
+    popVC.view.backgroundColor = [UIColor greenColor];
+    [self.navigationController pushViewController:popVC animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -12,6 +12,7 @@
 		4B38BF5D1CD997090070B164 /* XibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF5C1CD997090070B164 /* XibTests.m */; };
 		4B38BF5F1CD9A2700070B164 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */; };
 		4B38BF651CD9A5290070B164 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF641CD9A5290070B164 /* RootViewController.m */; };
+		4BB4EC3C1CD9DB5C007A11B2 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4EC3B1CD9DB5C007A11B2 /* PopViewController.m */; };
 		4BC53B2D1CD8970700BFBC5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B2C1CD8970700BFBC5E /* main.m */; };
 		4BC53B301CD8970700BFBC5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B2F1CD8970700BFBC5E /* AppDelegate.m */; };
 		4BC53B381CD8970700BFBC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC53B371CD8970700BFBC5E /* Assets.xcassets */; };
@@ -51,6 +52,8 @@
 		4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		4B38BF631CD9A5290070B164 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		4B38BF641CD9A5290070B164 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4BB4EC3A1CD9DB5C007A11B2 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		4BB4EC3B1CD9DB5C007A11B2 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 		4BC53B281CD8970700BFBC5E /* kiwidemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwidemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC53B2C1CD8970700BFBC5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BC53B2E1CD8970700BFBC5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				4BC53B2F1CD8970700BFBC5E /* AppDelegate.m */,
 				4B38BF631CD9A5290070B164 /* RootViewController.h */,
 				4B38BF641CD9A5290070B164 /* RootViewController.m */,
+				4BB4EC3A1CD9DB5C007A11B2 /* PopViewController.h */,
+				4BB4EC3B1CD9DB5C007A11B2 /* PopViewController.m */,
 				4BC53B601CD89EED00BFBC5E /* VVStack.h */,
 				4BC53B611CD89EED00BFBC5E /* VVStack.m */,
 				4BC53B6A1CD8A97100BFBC5E /* Person.h */,
@@ -178,8 +183,8 @@
 				4BC53B5E1CD89A2600BFBC5E /* SimpleStringSpec.m */,
 				4BC53B631CD89FA100BFBC5E /* VVStackSpec.m */,
 				4BC53B681CD8A8F200BFBC5E /* PersonSpec.m */,
-				4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */,
 				4B38BF5C1CD997090070B164 /* XibTests.m */,
+				4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */,
 				4BC53B471CD8970700BFBC5E /* Info.plist */,
 			);
 			path = kiwidemoTests;
@@ -379,6 +384,7 @@
 				4BC53B301CD8970700BFBC5E /* AppDelegate.m in Sources */,
 				4B38BF651CD9A5290070B164 /* RootViewController.m in Sources */,
 				4BC53B6C1CD8A97100BFBC5E /* Person.m in Sources */,
+				4BB4EC3C1CD9DB5C007A11B2 /* PopViewController.m in Sources */,
 				4BC53B621CD89EED00BFBC5E /* VVStack.m in Sources */,
 				4BC53B2D1CD8970700BFBC5E /* main.m in Sources */,
 			);

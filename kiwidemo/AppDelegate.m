@@ -25,8 +25,9 @@
     
     RootViewController *rootVC = [[RootViewController alloc]init];
     rootVC.view.backgroundColor = [UIColor yellowColor];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:rootVC];
     
-    self.window.rootViewController = rootVC;
+    self.window.rootViewController = navi;
     
     return YES;
 }
