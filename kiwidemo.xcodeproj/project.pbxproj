@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B38BF5A1CD996FF0070B164 /* ViewControllerXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF581CD996FF0070B164 /* ViewControllerXIB.m */; };
+		4B38BF5B1CD996FF0070B164 /* ViewControllerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B38BF591CD996FF0070B164 /* ViewControllerXIB.xib */; };
+		4B38BF5D1CD997090070B164 /* XibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF5C1CD997090070B164 /* XibTests.m */; };
+		4B38BF5F1CD9A2700070B164 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */; };
+		4B38BF651CD9A5290070B164 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B38BF641CD9A5290070B164 /* RootViewController.m */; };
 		4BC53B2D1CD8970700BFBC5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B2C1CD8970700BFBC5E /* main.m */; };
 		4BC53B301CD8970700BFBC5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B2F1CD8970700BFBC5E /* AppDelegate.m */; };
-		4BC53B331CD8970700BFBC5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B321CD8970700BFBC5E /* ViewController.m */; };
-		4BC53B361CD8970700BFBC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC53B341CD8970700BFBC5E /* Main.storyboard */; };
 		4BC53B381CD8970700BFBC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC53B371CD8970700BFBC5E /* Assets.xcassets */; };
 		4BC53B3B1CD8970700BFBC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC53B391CD8970700BFBC5E /* LaunchScreen.storyboard */; };
 		4BC53B461CD8970700BFBC5E /* kiwidemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B451CD8970700BFBC5E /* kiwidemoTests.m */; };
 		4BC53B511CD8970700BFBC5E /* kiwidemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B501CD8970700BFBC5E /* kiwidemoUITests.m */; };
+		4BC53B5F1CD89A2600BFBC5E /* SimpleStringSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B5E1CD89A2600BFBC5E /* SimpleStringSpec.m */; };
+		4BC53B621CD89EED00BFBC5E /* VVStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B611CD89EED00BFBC5E /* VVStack.m */; };
+		4BC53B641CD89FA100BFBC5E /* VVStackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B631CD89FA100BFBC5E /* VVStackSpec.m */; };
+		4BC53B691CD8A8F200BFBC5E /* PersonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B681CD8A8F200BFBC5E /* PersonSpec.m */; };
+		4BC53B6C1CD8A97100BFBC5E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC53B6B1CD8A97100BFBC5E /* Person.m */; };
+		BFF504FFF86C925E20C91B80 /* libPods-kiwidemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5C5B258C5CE0CF8F8AE002 /* libPods-kiwidemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B38BF571CD996FF0070B164 /* ViewControllerXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerXIB.h; sourceTree = "<group>"; };
+		4B38BF581CD996FF0070B164 /* ViewControllerXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerXIB.m; sourceTree = "<group>"; };
+		4B38BF591CD996FF0070B164 /* ViewControllerXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerXIB.xib; sourceTree = "<group>"; };
+		4B38BF5C1CD997090070B164 /* XibTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibTests.m; sourceTree = "<group>"; };
+		4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
+		4B38BF631CD9A5290070B164 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4B38BF641CD9A5290070B164 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		4BC53B281CD8970700BFBC5E /* kiwidemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwidemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC53B2C1CD8970700BFBC5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BC53B2E1CD8970700BFBC5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4BC53B2F1CD8970700BFBC5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4BC53B311CD8970700BFBC5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4BC53B321CD8970700BFBC5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4BC53B351CD8970700BFBC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC53B371CD8970700BFBC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC53B3A1CD8970700BFBC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC53B3C1CD8970700BFBC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,16 @@
 		4BC53B4C1CD8970700BFBC5E /* kiwidemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiwidemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC53B501CD8970700BFBC5E /* kiwidemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kiwidemoUITests.m; sourceTree = "<group>"; };
 		4BC53B521CD8970700BFBC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC53B5E1CD89A2600BFBC5E /* SimpleStringSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleStringSpec.m; sourceTree = "<group>"; };
+		4BC53B601CD89EED00BFBC5E /* VVStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVStack.h; sourceTree = "<group>"; };
+		4BC53B611CD89EED00BFBC5E /* VVStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVStack.m; sourceTree = "<group>"; };
+		4BC53B631CD89FA100BFBC5E /* VVStackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVStackSpec.m; sourceTree = "<group>"; };
+		4BC53B681CD8A8F200BFBC5E /* PersonSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonSpec.m; sourceTree = "<group>"; };
+		4BC53B6A1CD8A97100BFBC5E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4BC53B6B1CD8A97100BFBC5E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AAE21B2F96CF99E39EA8BF32 /* Pods-kiwidemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwidemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kiwidemoTests/Pods-kiwidemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C822B913FEEC56A213FDCAFE /* Pods-kiwidemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwidemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kiwidemoTests/Pods-kiwidemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5C5B258C5CE0CF8F8AE002 /* libPods-kiwidemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kiwidemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF504FFF86C925E20C91B80 /* libPods-kiwidemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3655B9D8F88F53F74E147F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C5B258C5CE0CF8F8AE002 /* libPods-kiwidemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45EA3EA55DD0DEE4B46D3C06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C822B913FEEC56A213FDCAFE /* Pods-kiwidemoTests.debug.xcconfig */,
+				AAE21B2F96CF99E39EA8BF32 /* Pods-kiwidemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4BC53B1F1CD8970700BFBC5E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				4BC53B441CD8970700BFBC5E /* kiwidemoTests */,
 				4BC53B4F1CD8970700BFBC5E /* kiwidemoUITests */,
 				4BC53B291CD8970700BFBC5E /* Products */,
+				45EA3EA55DD0DEE4B46D3C06 /* Pods */,
+				3655B9D8F88F53F74E147F3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +146,15 @@
 			children = (
 				4BC53B2E1CD8970700BFBC5E /* AppDelegate.h */,
 				4BC53B2F1CD8970700BFBC5E /* AppDelegate.m */,
-				4BC53B311CD8970700BFBC5E /* ViewController.h */,
-				4BC53B321CD8970700BFBC5E /* ViewController.m */,
-				4BC53B341CD8970700BFBC5E /* Main.storyboard */,
+				4B38BF631CD9A5290070B164 /* RootViewController.h */,
+				4B38BF641CD9A5290070B164 /* RootViewController.m */,
+				4BC53B601CD89EED00BFBC5E /* VVStack.h */,
+				4BC53B611CD89EED00BFBC5E /* VVStack.m */,
+				4BC53B6A1CD8A97100BFBC5E /* Person.h */,
+				4BC53B6B1CD8A97100BFBC5E /* Person.m */,
+				4B38BF571CD996FF0070B164 /* ViewControllerXIB.h */,
+				4B38BF581CD996FF0070B164 /* ViewControllerXIB.m */,
+				4B38BF591CD996FF0070B164 /* ViewControllerXIB.xib */,
 				4BC53B371CD8970700BFBC5E /* Assets.xcassets */,
 				4BC53B391CD8970700BFBC5E /* LaunchScreen.storyboard */,
 				4BC53B3C1CD8970700BFBC5E /* Info.plist */,
@@ -126,6 +175,11 @@
 			isa = PBXGroup;
 			children = (
 				4BC53B451CD8970700BFBC5E /* kiwidemoTests.m */,
+				4BC53B5E1CD89A2600BFBC5E /* SimpleStringSpec.m */,
+				4BC53B631CD89FA100BFBC5E /* VVStackSpec.m */,
+				4BC53B681CD8A8F200BFBC5E /* PersonSpec.m */,
+				4B38BF5E1CD9A2700070B164 /* ViewControllerTests.m */,
+				4B38BF5C1CD997090070B164 /* XibTests.m */,
 				4BC53B471CD8970700BFBC5E /* Info.plist */,
 			);
 			path = kiwidemoTests;
@@ -164,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BC53B581CD8970700BFBC5E /* Build configuration list for PBXNativeTarget "kiwidemoTests" */;
 			buildPhases = (
+				EB6BC252A58ABDE9F81BA2C3 /* Check Pods Manifest.lock */,
 				4BC53B3D1CD8970700BFBC5E /* Sources */,
 				4BC53B3E1CD8970700BFBC5E /* Frameworks */,
 				4BC53B3F1CD8970700BFBC5E /* Resources */,
+				4E4DAC78C96848B22B7D72EA /* Embed Pods Frameworks */,
+				9020E716437815A63EDC4DB6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38BF5B1CD996FF0070B164 /* ViewControllerXIB.xib in Resources */,
 				4BC53B3B1CD8970700BFBC5E /* LaunchScreen.storyboard in Resources */,
 				4BC53B381CD8970700BFBC5E /* Assets.xcassets in Resources */,
-				4BC53B361CD8970700BFBC5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +322,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E4DAC78C96848B22B7D72EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwidemoTests/Pods-kiwidemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9020E716437815A63EDC4DB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kiwidemoTests/Pods-kiwidemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6BC252A58ABDE9F81BA2C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BC53B241CD8970700BFBC5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC53B331CD8970700BFBC5E /* ViewController.m in Sources */,
+				4B38BF5A1CD996FF0070B164 /* ViewControllerXIB.m in Sources */,
 				4BC53B301CD8970700BFBC5E /* AppDelegate.m in Sources */,
+				4B38BF651CD9A5290070B164 /* RootViewController.m in Sources */,
+				4BC53B6C1CD8A97100BFBC5E /* Person.m in Sources */,
+				4BC53B621CD89EED00BFBC5E /* VVStack.m in Sources */,
 				4BC53B2D1CD8970700BFBC5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38BF5F1CD9A2700070B164 /* ViewControllerTests.m in Sources */,
 				4BC53B461CD8970700BFBC5E /* kiwidemoTests.m in Sources */,
+				4BC53B691CD8A8F200BFBC5E /* PersonSpec.m in Sources */,
+				4BC53B5F1CD89A2600BFBC5E /* SimpleStringSpec.m in Sources */,
+				4BC53B641CD89FA100BFBC5E /* VVStackSpec.m in Sources */,
+				4B38BF5D1CD997090070B164 /* XibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +421,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4BC53B341CD8970700BFBC5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BC53B351CD8970700BFBC5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BC53B391CD8970700BFBC5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +538,7 @@
 		};
 		4BC53B591CD8970700BFBC5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C822B913FEEC56A213FDCAFE /* Pods-kiwidemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kiwidemoTests/Info.plist;
@@ -445,6 +551,7 @@
 		};
 		4BC53B5A1CD8970700BFBC5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE21B2F96CF99E39EA8BF32 /* Pods-kiwidemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kiwidemoTests/Info.plist;
@@ -496,6 +603,7 @@
 				4BC53B571CD8970700BFBC5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BC53B581CD8970700BFBC5E /* Build configuration list for PBXNativeTarget "kiwidemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +612,7 @@
 				4BC53B5A1CD8970700BFBC5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BC53B5B1CD8970700BFBC5E /* Build configuration list for PBXNativeTarget "kiwidemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +621,7 @@
 				4BC53B5D1CD8970700BFBC5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
